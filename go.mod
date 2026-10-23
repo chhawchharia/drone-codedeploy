@@ -1,6 +1,8 @@
 module github.com/drone-plugins/drone-codedeploy
 
-go 1.26.10
+go 1.24.0
+
+toolchain go1.26.10
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.3
